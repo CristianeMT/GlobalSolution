@@ -1,0 +1,310 @@
+<!--
+Grupo
+Cristiane Mota Tabosa: rm98034
+Felipe Augusto Correa de Carvalho: rm550238
+Pedro Fernandes Klein: rm99133
+Vitor Henrique Barreiro Marinho: rm550327
+Vinicius do Carmo Fonseca Freitas: rm97599
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share a Bite</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Share a Bite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#video-section">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#problematica-section">Problemática</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#como-funciona-section">Como Funciona</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#parceiros-section">Parceiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#depoimentos-section">Depoimentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#download-section">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre-section">Sobre</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Vídeo -->
+  <section id="video-section" class="bg-dark text-white py-5 video-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="text-center">Bem-vindo ao Share a Bite</h1>
+          <p class="lead text-center">Assista ao nosso vídeo de apresentação para saber mais sobre nosso projeto.</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7xhY7ZraUao" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Problematica -->
+    <section id="problematica-section" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>A Fome no Brasil</h2>
+              <p>A fome é uma realidade alarmante no Brasil, afetando milhões de pessoas em todo o país. De acordo com dados recentes, estima-se que mais de 33,1 milhões de brasileiros estejam em situação de insegurança alimentar, sem acesso adequado a alimentos nutritivos e em quantidade suficiente.</p>
+              <p>Essa situação é ainda mais preocupante quando consideramos a dimensão dos impactos da fome na vida das pessoas, incluindo a falta de nutrientes essenciais, o comprometimento da saúde, o desenvolvimento infantil prejudicado e a perpetuação do ciclo de pobreza.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="text-center">
+                <h3>Número de Pessoas em Situação de Fome no Brasil</h3>
+                <h1 class="display-3">33 milhões</h1>
+                <p>Fonte: Rede PENSSAN, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Como funciona -->
+      <section id="como-funciona-section" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Como Funciona</h2>
+              <p>O aplicativo Share a Bite atua como uma plataforma de intermediação entre doadores e pessoas em situação de fome em todo o país. Nossa missão é facilitar e agilizar o processo de doação de alimentos para ajudar a combater a fome.</p>
+              <p>Veja como funciona:</p>
+              <ol>
+                <li>Doadores se cadastram no aplicativo e informam o tipo de doação que desejam fazer.</li>
+                <li>ONGs e pessoas em situação de fome se cadastram e informam suas necessidades alimentares.</li>
+                <li>O aplicativo faz a conexão entre os doadores e os mais necessitados, sugerindo as melhores combinações de doações com base na localização e necessidades.</li>
+                <li>Os doadores podem visualizar as solicitações de doação e escolher para quem desejam direcionar sua ajuda.</li>
+                <li>A entrega dos alimentos é organizada e acompanhada pelo aplicativo, garantindo a segurança e o monitoramento de todo o processo.</li>
+              </ol>
+            </div>
+            <div class="col-md-6">
+              <h2>Veja quanto ja arrecadamos</h2>
+              <p>Diariamente recebemos uma quantidade em massa de doações, são diversas pessoas dispostas a doar e você pode ser uma delas. Temos muitos profissionais qualificados para receber essas doações e entregar para aqueles mais necessitados, clique aqui no botão abaixo para saber o quanto já arrecadamos até hoje em toda jornada desta startup! 
+              </p>
+              <button id="saiba-mais-btn" class="btn btn-primary btn-custom" data-toggle="modal" data-target="#informacoes-modal">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <div class="modal fade" id="informacoes-modal" tabindex="-1" role="dialog" aria-labelledby="informacoes-modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="informacoes-modal-label">Arrecadado</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Até o momento, já arrecadamos:</p>
+              <ul>
+                <li>Toneladas de Alimento: <span id="toneladas-alimento"></span></li>
+                <li>Litros de Leite: <span id="litros-leite"></span></li>
+                <li>Valor em Dinheiro: <span id="valor-dinheiro"></span></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parceiros -->
+      <section id="parceiros-section" class="py-5">
+        <div class="container">
+          <h2 class="section-title">Nossos Parceiros</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-3 text-center">
+              <img src="img/fiap.png" alt="FIAP" class="img-fluid parceiro-logo">
+            </div>
+            <div class="col-md-3 text-center">
+              <img src="img/microsoft.png" alt="Microsoft" class="img-fluid parceiro-logo">
+            </div>
+            <div class="col-md-3 text-center">
+              <img src="img/kraftheinz.png" alt="Kraftheinz" class="img-fluid parceiro-logo">
+            </div>
+            <div class="col-md-3 text-center">
+              <img src="img/institutocacafome.png" alt="Instituto Caça Fome" class="img-fluid parceiro-logo">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Depoimentos -->
+      <section id="depoimentos-section" class="py-5">
+        <div class="container">
+          <h2 class="section-title">Depoimentos</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="depoimentos">
+                <div class="depoimentos-img">
+                  <div class="depoimentos-img-dentro">
+                    <img src="img/joaosilva.avif" alt="João Silva" class="depoimentos-foto">
+                  </div>
+                </div>
+                <h3 class="depoimentos-nome">João Silva</h3>
+                <p class="depoimentos-texto">"Graças ao Share a Bite, consegui alimentar minha família e ter esperança em tempos difíceis. Sou muito grato por essa ajuda!"</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="depoimentos">
+                <div class="depoimentos-img">
+                  <div class="depoimentos-img-dentro">
+                    <img src="img/mariasantos.jpg" alt="Maria Santos" class="depoimentos-foto">
+                  </div>
+                </div>
+                <h3 class="depoimentos-nome">Maria Santos</h3>
+                <p class="depoimentos-texto">"O Share a Bite fez a diferença na minha vida. Agora, tenho refeições nutritivas todos os dias e posso focar em construir um futuro melhor."</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="depoimentos">
+                <div class="depoimentos-img">
+                  <div class="depoimentos-img-dentro">
+                    <img src="img/carlossouza.jpg" alt="Carlos Souza" class="depoimentos-foto">
+                  </div>
+                </div>
+                <h3 class="depoimentos-nome">Carlos Souza</h3>
+                <p class="depoimentos-texto">"Agradeço imensamente ao Share a Bite por nos dar a oportunidade de ter uma alimentação adequada. É um projeto que salva vidas!"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>            
+      
+    <!-- Download -->
+      <section id="download-section" class="py-5 bg-light">
+        <div class="container text-center">
+          <h2>Baixe o aplicativo</h2>
+          <p>Disponível na App Store e Google Play</p>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <a href="#" class="btn btn-primary btn-lg btn-block mb-3">
+                <i class="fab fa-apple"></i> Baixar na App Store
+              </a>
+              <a href="#" class="btn btn-primary btn-lg btn-block">
+                <i class="fab fa-google-play"></i> Baixar no Google Play
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+  <!-- Sobre -->
+  <section id="sobre-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Sobre a Share a Bite</h2>
+          <p>A Share a Bite é um aplicativo que visa facilitar a intermediação entre doadores de alimentos e recursos financeiros com ONGs e pessoas em situação de fome. Nossa missão é promover a solidariedade e combater a fome por meio de uma plataforma intuitiva e segura.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="text-right">
+            <p>Entre em contato conosco</p>
+            <ul class="list-unstyled">
+              <li><i class="fa fa-envelope"></i> Email: contato@shareabite.com</li>
+              <li><i class="fa fa-phone"></i> Telefone: (13) 97402-3753</li>
+            </ul>
+            <p>Nos acompanhe nas redes sociais:</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+              <div class="voltar ao topo">
+                <div> 
+                  <button onclick="scrollToTop()" id="btnTopo">Voltar ao topo</button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    //Botao mudar de cor
+    const downloadButtons = document.querySelectorAll('.btn-primary');
+
+    downloadButtons.forEach(button => {
+      button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = '#F6048C';
+        button.style.borderColor = '#F6008C';
+      });
+
+      button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = '#FF009E';
+        button.style.borderColor = '#FF009E';
+      });
+    });
+
+    //Dialog box com valores arrecadados
+    function atualizarInformacoesArrecadadas() {
+      const toneladasAlimento = 150;
+      const litrosLeite = 200;
+      const valorDinheiro = 500000;
+
+      document.getElementById("toneladas-alimento").textContent = toneladasAlimento;
+      document.getElementById("litros-leite").textContent = litrosLeite;
+      document.getElementById("valor-dinheiro").textContent = `R$ ${valorDinheiro}`;
+    }
+
+    const saibaMaisBtn = document.getElementById("saiba-mais-btn");
+    saibaMaisBtn.addEventListener("click", atualizarInformacoesArrecadadas);
+
+    window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  var btnTopo = document.getElementById("btnTopo");
+  
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnTopo.style.display = "block";
+  } else {
+    btnTopo.style.display = "none";
+  }
+}
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>
